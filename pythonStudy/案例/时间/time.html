@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+显示来千锋的时间
+</title>
+<script type="text/javascript">
+   var start = new Date("2018/12/19");
+   
+   setInterval("ff()",1000);//setTimeout("ff()",1000)
+   function ff()
+   {
+    var end = new Date();
+    var total = end-start;//单位是毫秒
+    
+    //var day = parseInt(total/1000/60/60/24);
+    //document.getElementById("dv").innerHTML = day+"天";
+    
+    var minute = parseInt(total/1000/60);
+    var second = parseInt(total/1000)%60;
+    document.getElementById("dv").innerHTML=minute+"分"+second+"秒";    
+   }
+   
+   //每隔1秒去调用ff函数
+
+</script>
+</head>
+<body onload="ff()">
+       来千锋的时间:<div id="dv"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

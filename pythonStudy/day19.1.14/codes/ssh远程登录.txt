@@ -1,0 +1,29 @@
+1.ssh链接远程主机:
+Mac上自带ssh  whereis ssh  查询位置
+ps aux | grep ssh  查看现有进程
+ssh -p 22(端口) (电脑名)@(IP地址)   输入密码链接
+vi a.txt  打开文件, 没有的话会创建
+双esc+: 转最末尾  wq 保存退出!
+退出 exit
+
+2.远程拷贝:
+sudo scp -r apple@10.20.158.74:~/py*(源文件路径) ~/(保存路径)   远程拷贝
+scp x@10.20.158.12:~/Desktop/1_linux.md ~/
+移动路径  mv 1_linux.md Desktop  到桌面
+
+3.从远程主机拷贝文件到主机
+$ scp a.txt tocy@192.168.0.200:~/a.txt    # 文件
+$ scp -r src tocy@192.168.0.200:~/src    # 目录    
+
+4.上传本地文件到主机
+$ scp  ~/a.txt tocy@192.168.0.200:/详细目录/a.txt
+scp ~/Desktop/牛逼.txt x@10.20.158.12:/home/x/Desktop/牛逼.txt   (scp 源文件路径 目标路径!电脑名@IP:绝对路径)
+$ scp -r ~/src tocy@192.168.0.200:~/src 
+
+vi a.txt  打开文件, 没有的话会创建
+双esc+: 转最末尾  wq 保存退出!
+
+Ifconfig  查询IP
+
+
+

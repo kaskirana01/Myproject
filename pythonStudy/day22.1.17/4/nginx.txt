@@ -1,0 +1,27 @@
+手动安装：
+1、解压
+2、cd 到指定目录
+3、./configure
+4、make
+5、sudo make install
+
+
+
+nginx:
+1、先打开nginx： service nginx start
+2、打开指定目录：cd /etc/nginx
+   查看是否有所需目录： ls --> sites-available
+3、进入配置文件目录：cd sites-available
+   查看是否有 default
+4、制作配置文件：先复制模板—— sudo cp default 新配置文件名
+                然后进入新配置文件编写： sudo vim 新配置文件名 
+   新配置文件的注意：端口，root的设置
+5、进入 enable 目录制作软链接： 先进入指定路径 cd ../     cd sites-enable
+                制作 ： sudo ln -s ../sites-available/新配置文件名 配置文件软链接名               
+                ll查看是否成功
+6、然后进入etc目录进行拦截：cd /etc   
+                  修改hosts文件： sudo vim hosts    注意：主机名和查询路径的修改 
+7、重启nginx：service nginx restart
+8、跳转到网站文件存储目录：cd 到配置文件所写的目录（root部分）  比如：cd /war/www
+9、创建存储目录：sudo mkdir 目录名
+10、书写网页内容：sudo vim index.html 
