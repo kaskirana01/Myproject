@@ -1,5 +1,8 @@
+# from _sha1 import sha1
+
 import pymysql
 from settings import database
+from hashlib import sha1
 
 """
 SELECT {fields} FROM {table}{where}{groupby}{having}{orderby}{limit}
@@ -68,17 +71,16 @@ class Manager:
 
 	def select(self):
 		sql = "SELECT {fields} FROM {table}{where}{groupby}{having}{orderby}{limit}".format(**self.options)
-		# try:
-		# 	rows = self.cursor.execute(sql)
-		# 	if rows > 0:
-		# 		data = self.cursor.fetchall()
-		# 		return data
-		# 	return self
-		#
-		# except Exception as e:
-		# 	print(e)
+		try:
+			rows = self.cursor.execute(sql)
+			if rows > 0:
+				data = self.cursor.fetchall()
+				print(data)
+
+		except Exception as e:
+			print(e)
 		print(sql)
-		return self
+		# return sql
 
 	def limit(self,*args):
 		"""
@@ -98,4 +100,4 @@ if  __name__ == "__main__":
 
 	# print(db.options)
 	# print(sql)
-	db.where(name = 'yi',password = 1129).limit(0,1).select()
+	db.where(name = 'yi',password = sha1('1129'.encode('utf-8')).hexdigest()).limit(0,1).select()
