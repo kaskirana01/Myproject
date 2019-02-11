@@ -191,7 +191,10 @@ select * from zzl_student where sno = monitor and class='95031';
 
 ###2.1 事务
 
+- ACID，指数据库事务正确执行的四个基本要素的缩写。包含：原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability）。一个支持事务（Transaction）的数据库，必须要具有这四种[特性](https://baike.baidu.com/item/%E7%89%B9%E6%80%A7/3128227)，否则在事务过程（Transaction processing）当中无法保证数据的正确性，交易过程极可能达不到交易方的要求。
+
 - 事务把一组操作看做一个整体，要不都操作成功，要不都操作失败 。(ACID)
+
 - 表的数据库引擎必须是innodb，innodb支持事物，myisam不支持事务
 
 - 修改表引擎：alter table  表名 engine = innodb
@@ -199,15 +202,15 @@ select * from zzl_student where sno = monitor and class='95031';
   ~~~~
   查询是否为自动提交
   select @@autocommit  (1为自动提交   0为手动提交)
-
+  
   关闭自动提交
   set autocommit = 0
-
+  
   start transaction /begin
-
+  
   一组操作
   commit/rollback
-
+  
   commit 提交 会把数据写到硬盘
   rollback 回滚 撤销操作
   ~~~~

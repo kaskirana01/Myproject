@@ -20,7 +20,7 @@ cursor  = conn.cursor(cursor=pymysql.cursors.DictCursor)
 info = input('请输入学生的信息(学号,姓名,班级,用逗号隔开):')
 sno,sname,sclass = info.split(',')   # 字符串拆分 元组解包
 # 字符串参数 两边需要添加单引号
-sql = "insert into student (sno, sname,class) values('{}','{}','{}') ".format(sno,sname,sclass)
+sql = "insert into student (sno, sname,sclass) values('{}','{}','{}') ".format(sno,sname,sclass)
 
 # sql2 = "delete from student where sname = '{}'".format(info)   # 删
 # print(sql)
@@ -33,6 +33,7 @@ try:
 	if rows > 0:          # 插入成功提交,失败回滚
 		conn.commit()
 		print('已确认')
+		print(cursor.lastrowid)   # 获取最后一个主键的自增id号
 	else:
 		conn.rollback()
 
