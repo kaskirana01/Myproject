@@ -1,4 +1,4 @@
-# html
+# html（bs架构）与cs架构的区别client
 
 
 ## 1. html工作原理
@@ -7,14 +7,14 @@
 
 ![html工作原理](html工作原理.png)
 
-
+​       发送请求，返回源码
 
 - html是hypertext markup lanaguage缩写 超文本标记语言，是一种解释性语言，不需要编译，由浏览器解释执行
 - html组成
   - html 负责数据展示
   - css 负责美化页面
   - js  页面的动态效果
-- 动态网页和静态网页的区别
+- 动态网页（每次登录都不一样）和静态网页(提前做好的）的区别
   - 如果不修改页面源码，页面一成不变，就是静态页面
   - 动态页面，服务器从数据库提出数据临时生成的，会根据时间、是否登录不同，而页面内容也不同
 - 开发工具
@@ -23,7 +23,7 @@
 
 ##2. 认识标签
 
-marquee标签的引入，学习标签应该：
+marquee（滚动,跑马灯）标签的引入，学习标签应该：
 
 - 记住功能
 
@@ -48,17 +48,17 @@ marquee标签的引入，学习标签应该：
   - 标签可以嵌套，一个标签要完全嵌套到另外一个标签里
 
 
-##  3. 全局架构标签（重点）
+##  3. 全局架构标签（重点）（不区分大小写）
 
 ~~~html
 <!doctype html>   文档类型，html表名是html5的文档
 <html>   根标签
 <head>   头部
 	<meta charset="UTF-8"> 告诉浏览器用utf-8编码格式解释文档
-	<title>Document</title>  文档标题
+	<title>Document</title>  （文档标题为Document）
 </head>
-<body>
-	
+<body> 
+	（正文部分）
 </body>
 </html>
 ~~~
@@ -67,7 +67,7 @@ marquee标签的引入，学习标签应该：
 
 ​    设置文档标题，显示窗口的标题栏   
 
-###3.2 设置字符集 
+###3.2 meta设置字符集 
 
 ​    字符集是告诉浏览器用那种编码格式解读html文档，注意html文档本身有一个编码格式，这两个编码格式必须一致，不一致就乱码
 
@@ -91,7 +91,7 @@ marquee标签的引入，学习标签应该：
 
 ### 4.1 常用标签
 
--   h1~h6   标题，一般一个页面只设置一个h1标题
+-   h1~h6   标题，一般一个页面只设置一个h1标题(h1字体最大)
 -   hr （单标签） 水平分割线
     -   width  可以使用绝对值，300，不带单位，也可以使用百分比 50%
     -   align 对齐方式：left  center（默认） right
@@ -102,7 +102,7 @@ marquee标签的引入，学习标签应该：
 -   b（strong)  加粗
 -   i（cite,em）  斜体
 -   u  下划线
--   sub/sup  下标/上标，看圈在那边，在下边就是下标
+-   sub/sup  下标/上标，看圈在那边，在下边就是下标（可以写数学公式）
 -   font (face/color/size) 字体
     -   face  字体名称，到window目录下font子目录下查看
     -   color 字体颜色
@@ -149,7 +149,7 @@ marquee标签的引入，学习标签应该：
     -    square  实心方块
     -    circle   空心圆圈
 
-### 5.3 自定义列表（dl/dt/dd)
+### 5.3 自定义列表（dl/dt(标题）/dd（内容）)
 
 
 
@@ -162,7 +162,7 @@ marquee标签的引入，学习标签应该：
     ~~~
 
 
--   url 统一资源定位符
+-   url 统一资源定位符（重点）
 
     ~~~
     https://baike.baidu.com：80/item/%E6%9D%A8%E5%B9%82/149851?fr=aladdin#4
@@ -181,8 +181,8 @@ marquee标签的引入，学习标签应该：
 
 -   target  
 
-    -   __blank  新窗口打开
-    -   __self  当前窗口打开，默认
+    -   _blank  新窗口打开
+    -   _self  当前窗口打开，默认
 
 -   锚点 
 
@@ -208,9 +208,9 @@ marquee标签的引入，学习标签应该：
     ~~~
     本机绝对路径：file:///C:/python/web/1/ym.jpg
     网络绝对路径：https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=32ceb0ef04d79123f4ed9c26cc5d32e7/7c1ed21b0ef41bd55520081359da81cb38db3de2.jpg
-    网站绝对路径（了解）：
+    网站绝对路径（了解）：/ 代表网站的根目录
 
-    相对路径：相对于html文档所在目录
+    相对路径：相对于html文档所在目录 ../上一级目录 ./当前目录
     ~~~
 
 -   src 图片来源，可以是相对路径也可以是绝对路径
@@ -219,7 +219,7 @@ marquee标签的引入，学习标签应该：
 
 -   alt   图片不显示的时候的提示文字
 
--   border 图片边框大小，一般默认为0
+-   border 图片边框大小，一般默认为0（无黑边）1（有黑边）10（大黑边）
 
 -   width/height  一般只设置一个，另外一个等比例缩放
 
@@ -249,13 +249,13 @@ marquee标签的引入，学习标签应该：
     -   cellpadding：单元格到内容距离
     -   align：水平对齐  left、center、right
     -   height可以不用设置，自动撑开
--   tr 行
+-   tr 行(可以设置行高)
     -   align :水平对齐  left  center  right
     -   valign：垂直对齐 top middle  bottom
     -   注意：如果没有给该表格设置高度，那么设置valign无效,在以后布局页面的时候，一般不使用valign，只有一种情况使用到，就是图片和文字并排排放的时候，需要设置图片的valign为middle
 -   td 单元格
-    -   colspan   跨列  向右合并
-    -   rowspan  跨行 向下合并
+    -   colspan   跨列  向右合并 往右挤
+    -   rowspan  跨行 向下合并 往右挤
     -   width/height
 -   th 
     -   就是表格的表头，内容会加粗，和td用法相同
@@ -265,7 +265,7 @@ marquee标签的引入，学习标签应该：
 
 - 用途：收集用户信息，提交给服务器
 
-- 基本使用
+- Form基本使用(快递：提交地址，包裹)
 
     - 不是所有的标签都可以提交，能够向服务器提交信息的表单项，只有表单项：input、select、textarea才可以向服务器提交信息
 
@@ -289,7 +289,7 @@ marquee标签的引入，学习标签应该：
 - input框
 
     -   公有属性：type、name、value、readonly、disabled、size
-        -   type 类型：单行文本框（text）、密码框（password）、复选框（textbox）、单选框（radio）、文件上传（file）、按钮（button）、重置按钮（reset）
+        -   type 类型：单行文本框（text）、密码框（password）、复选框（checkbox）、单选框（radio）、文件上传（file）、按钮（button）、重置按钮（reset）、提交按钮（submit）
         -   name：  名称，要提交，必须设置name
         -   value    默认值
         -   readonly   只读
@@ -308,14 +308,16 @@ marquee标签的引入，学习标签应该：
         -   type：password
     -   单选框
         -   type：radio
-        -   checked：是否选中
+        -   checked：是否选中（默认选中）
         -   value： 一般用0或1表示，必须设置，否则服务器无法区别选中是哪一个
+        -   name值必须相同，才能多选一，不同可以多选！
     -   复选框
         -   type：checkbox
         -   checked: 是否选中
+        -   一般name值相同
     -   文件上传
         -   type：file
-    -   隐藏按钮
+    -   隐藏按钮(一般用于提交无需用户输入的数据)
         -   type：hidden
         -   name和value值必须设置
     -   button  一般配合js代码使用
@@ -323,7 +325,7 @@ marquee标签的引入，学习标签应该：
 - 下拉框（select）
 
     -   name 必须设置
-    -   size：显示的行数
+    -   size：显示的行数  下拉框变列表框
     -   multiple：是否可以选择多行
     -   下拉框选项（option）
         -   selected：是否选中
@@ -388,7 +390,7 @@ marquee标签的引入，学习标签应该：
     <meta name="description" content="" />
     ~~~
 
--   页面自动跳转
+-   页面自动跳转(***)
 
     ~~~
     <meta http-equiv="refresh" content="秒数;url=地址" >
@@ -428,7 +430,6 @@ marquee标签的引入，学习标签应该：
         ~~~
 
         
-
 
 作业：
 1）仿作大连民心网：http://www.mxwz.com/comp/jb_step2.html?tsly=pc&sqfl=&m=&openid=&id=104
