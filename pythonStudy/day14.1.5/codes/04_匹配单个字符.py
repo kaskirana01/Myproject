@@ -36,7 +36,7 @@ print(result)           # None
 # \S  ==> 匹配可见字符 , 一个
 
 # 生成正则表达式对象   一般不用这种方法
-pattern = re.compile(r"\d[a-z_]")   # 数字+小写字母的两位字符
+pattern = re.compile(r"\d[a-z_]")   # 数字+小写字母或者下划线的两位字符
 # 通过正则表达式对象来匹配
 result = pattern.match("2_6666")   # 结尾被忽略了!从开头开始匹配
 print(result)

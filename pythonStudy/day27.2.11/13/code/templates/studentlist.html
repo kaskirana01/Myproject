@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+</head>
+<body>
+<table border="1" width="80%" align="center" cellspacing="0">
+    <caption>用户</caption>
+    <tr>
+        <th>姓名</th>
+        <th>密码</th>
+        <th>编号</th>
+        {% for student in students  %}
+            <tr>
+                <td>{{ student.sname }}</td>
+                <td>{{ student.password }}</td>
+                <td>{{ student.snum }}</td>
+
+            </tr>
+        {%  endfor %}
+    </tr>
+
+</table>
+</body>
+</html>

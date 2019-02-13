@@ -229,7 +229,7 @@ marquee（滚动,跑马灯）标签的引入，学习标签应该：
 
 这两个标签都是对标签
 
--   视频  
+-   视频  <video src=""></video>
 
     -   src  视频来源，写法同img的src
     -   controls  控制面板
@@ -237,7 +237,7 @@ marquee（滚动,跑马灯）标签的引入，学习标签应该：
     -   autoplay  z自动播放
     -   width/height    宽高，只设置一个
 
--   音频
+-   音频 <audio src=""></audio>
 
     -   src /controls/loop/autoplay
 
@@ -311,7 +311,7 @@ marquee（滚动,跑马灯）标签的引入，学习标签应该：
         -   checked：是否选中（默认选中）
         -   value： 一般用0或1表示，必须设置，否则服务器无法区别选中是哪一个
         -   name值必须相同，才能多选一，不同可以多选！
-    -   复选框
+    -   多选框
         -   type：checkbox
         -   checked: 是否选中
         -   一般name值相同
