@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>标签选择器</title>
+	<style type="text/css">
+		/*类名相同的标签。  .类名{}. */
+		.c1{
+			color:yellow;
+			background: red;
+			font-size: 50px;
+		}
+		.c2{
+
+			font-size: 100px;
+			font-style: italic;  /*斜体*/
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<p class="c1">大家好</p>
+	<span class="c1 c2">流浪地球</span>     <!-- c2优先  -->
+	<p class="c2">你妈贵姓</p>
+
+</body>
+</html>

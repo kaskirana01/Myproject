@@ -234,7 +234,7 @@ marquee（滚动,跑马灯）标签的引入，学习标签应该：
     -   src  视频来源，写法同img的src
     -   controls  控制面板
     -   loop   循环播放
-    -   autoplay  z自动播放
+    -   autoplay  自动播放
     -   width/height    宽高，只设置一个
 
 -   音频 <audio src=""></audio>
@@ -399,8 +399,13 @@ marquee（滚动,跑马灯）标签的引入，学习标签应该：
 ## 13. 布局标签
 
 - div
+
+    <div  border=1 solid= green> ( solid边框颜色)
+
 - span
+
 - header、section、footer
+
 - 标签分类
     - 块标签
 

@@ -1,0 +1,52 @@
+		header{
+			height: 180px;
+			background: #F2F2F2
+		}
+		span{
+			font-size:16px;
+			color:red
+		}
+		.n{
+			color:red
+		}
+		a{
+			font-size: 15px
+		}
+		h4{
+			background-color: green;
+			width:100px;
+			color:white;
+			font-size: 14px;
+			text-align: center;
+		}
+		.hr1{
+			border-bottom :1px solid green ;
+			width: 100%;
+		}
+		footer{
+			height: 80px;
+			background: #F2F2F2
+		}
+		#div_1{
+			height: 960px;background:#F2F2F2
+		}
+		#div_2{
+			height: 950px;
+			width:950px;
+			background:white
+		}
+		#div_3{
+			height: 930px;
+			width: 870px;
+			background: white
+		}
+		.select_1{
+			width: 860px
+		}
+		input[type='submit']{
+			width: 860px;
+			height: 40px;
+			background-color: green;
+			font-size:16px;
+			color: white
+		}

@@ -9,10 +9,10 @@ def application(environ,start_response):
 	# 遍历environ字典
 	# for key in environ:
 	# 	print(key,'----',environ[key])
-	html = "<!doctype html><html><head><meta charset='utf-8'></head><body><h2>你好</h2></body></html>"
+	html = "<!doctype html><html><head><meta charset='utf-8'></head><body><h2>404 Not Found</h2></body></html>"
 
 	# 处理路由，将用户的请求转化为对应的处理
-	path = environ.get('PATH_INFO','/')    # 字典的get方法，不会报错
+	path = environ.get('PATH_INFO','/')    # 字典的get方法，不会报错 如果没有，默认/
 	path = path.strip('/')      # 去掉前后'/'匹配
 	print(path)
 
