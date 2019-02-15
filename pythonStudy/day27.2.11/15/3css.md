@@ -143,7 +143,7 @@ font简写(style || weight [size family]) 顺序不能错，但属性可以不�
   - scroll：显示滚动条，滚动显示
   - auto：自动显示滚动条
 
-## 11 盒子模型
+## 11 盒子模型（核心）
 
 - 外边距
 
@@ -157,6 +157,7 @@ font简写(style || weight [size family]) 顺序不能错，但属性可以不�
   			-margin:200px;/*上右下左都是200*/
   			-margin:200px 100px;/*上=下=200  右=左=100*/
   			margin:100px 30px 50px; 上=100 右=左=30 下=50 
+  margin : 30px.  四个边距都一样！
   ```
 
 - 内边距
@@ -199,12 +200,12 @@ position(relative,absolute,static,fixed)
   - 2）相对于自身原来的位置
   - 3）***如果父标签是相对定位，子标签是绝对定位，子标签是相对于父标签进行定位***
 
-- fixed
+- fixed（固定窗口，广告）
 
   - 完全脱离文档流
-  - 相对于当前可视区域
+  - 相对于当前可视区域（滚动条不会改变位置）
 
-- z-index：这个属性的测试需要都为absolute或者fixed的才有效。数值越高，显示越靠前，针对浮动无效。默认值为0
+- z-index：（z轴，值越大越靠近外面）这个属性的测试需要都为absolute或者fixed的才有效。数值越高，显示越靠前，针对浮动无效。默认值为0
 
 - 如下属性只有当定位是relative、absolute、fixed时有效
 

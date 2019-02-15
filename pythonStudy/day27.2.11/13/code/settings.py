@@ -7,3 +7,6 @@ database = {
             'port': 3306,
             'charset': 'utf8'
         }
+
+# static 的根路径
+STATIC_ROOT = 'static'

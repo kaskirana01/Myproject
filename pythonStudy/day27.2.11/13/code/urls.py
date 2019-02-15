@@ -8,4 +8,6 @@ urlpatterns = [
 	(r'^dologin$',views.doLogin),
 	(r'^studentlist$',views.studentList),
 	# (r'^complain$',views.complain)
+	(r'^register$',views.register),
+	(r'^static/',views.loadStatic),
 ]

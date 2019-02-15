@@ -1,5 +1,5 @@
 		header{
-			height: 180px;
+			height: 170px;
 			background: #F2F2F2
 		}
 		span{
@@ -12,31 +12,34 @@
 		a{
 			font-size: 15px
 		}
-		h4{
+		h3{
 			background-color: green;
-			width:100px;
+			width:120px;
+			margin-bottom: 0px;
 			color:white;
-			font-size: 14px;
+			font-size: 18px;
 			text-align: center;
 		}
 		.hr1{
-			border-bottom :1px solid green ;
+			border-bottom :1px solid green;
+			margin-top: 0px;
 			width: 100%;
+
 		}
 		footer{
 			height: 80px;
 			background: #F2F2F2
 		}
 		#div_1{
-			height: 960px;background:#F2F2F2
+			height: 930px;background:#F2F2F2
 		}
 		#div_2{
-			height: 950px;
+			height: 940px;
 			width:950px;
 			background:white
 		}
 		#div_3{
-			height: 930px;
+			height: 920px;
 			width: 870px;
 			background: white
 		}
@@ -48,5 +51,11 @@
 			height: 40px;
 			background-color: green;
 			font-size:16px;
-			color: white
+			color: white;
+		}
+		input[type='button']{
+			border-radius:6px;
+		}
+		textarea{
+			border-radius:6px;
 		}

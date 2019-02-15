@@ -5,6 +5,7 @@ from Manager import Manager
 import jinja2
 
 
+
 # 首页
 # def index(envirn,start_response):
 # 	try:
@@ -121,3 +122,26 @@ def studentList(request):
 	request.start_response('200 ok', [('Content-Type', 'text/html')])
 	return [template.render(students=data).encode('utf-8')]
 
+def register(request):
+	html = b''
+	with open('templates/register.html','rb') as fp:
+		html = fp.read()
+	request.start_response('200 ok', [('Content-Type', 'text/html')])
+	return [html]
+
+def loadStatic(request):
+	path = request.path.strip('/')
+	print(request.path)
+	import os
+	if os.path.exists(path):
+		with open(path,'rb') as fp:
+			content = fp.read()
+		request.start_response('200 ok', [('Content-Type', 'text/css')])
+	else:
+		content = b"file not found"
+		request.start_response('200 ok', [('Content-Type', 'text/html')])
+
+	return [content]
+
+def yzm(request):
+	pass
