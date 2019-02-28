@@ -7,7 +7,9 @@ urlpatterns = [
 	(r'^login$',views.login),
 	(r'^dologin$',views.doLogin),
 	(r'^studentlist$',views.studentList),
+	(r'^studentlist/(\d+)$',views.studentInfo),
 	# (r'^complain$',views.complain)
 	(r'^register$',views.register),
 	(r'^static/',views.loadStatic),
+	(r'^yzm',views.yzm),
 ]

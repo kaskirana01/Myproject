@@ -131,12 +131,21 @@ def register(request):
 
 def loadStatic(request):
 	path = request.path.strip('/')
-	print(request.path)
+	# print(path)
 	import os
+	ext = os.path.splitext(path)[1].strip('.')
+	print(ext)
 	if os.path.exists(path):
 		with open(path,'rb') as fp:
 			content = fp.read()
-		request.start_response('200 ok', [('Content-Type', 'text/css')])
+		if ext == 'css':
+			request.start_response('200 ok', [('Content-Type', 'text/css')])
+		elif ext == 'js':
+			request.start_response('200 ok', [('Content-Type', 'application/x-javascript')])
+		elif ext == 'png':
+			request.start_response('200 ok', [('Content-Type', 'image/png')])
+		elif ext in ['jpeg','jpg']:
+			request.start_response('200 ok', [('Content-Type', 'image/jpeg')])
 	else:
 		content = b"file not found"
 		request.start_response('200 ok', [('Content-Type', 'text/html')])
@@ -144,4 +153,14 @@ def loadStatic(request):
 	return [content]
 
 def yzm(request):
-	pass
+	from VerifyCode import VerifyCode
+	vc = VerifyCode()
+	data = vc.generate()
+	request.start_response('200 ok', [('Content-Type', 'image/png')])
+	return [data]
+
+# 学生信息
+def studentInfo(request,sno):
+	print(sno)
+	request.start_response('200 ok', [('Content-Type', 'text/html')])
+	return [b'info']

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            height: 300px;
+            background-color:red;
+        }
+    </style>
+</head>
+
+<body>
+    <button>show/hidden</button>
+    <button>slide</button>
+    <button>fade</button>
+    <button>自定义</button>
+    <div></div>
+</body>
+</html>
+<script src="jquery1.11.1/jquery.min.js"></script>
+<script>
+    //点击显示消失
+    $('button').eq(0).click(function () {
+        if ($('div')[0].style.display === 'none'){
+                 $('div').show()
+        }else {
+            // console.log($('div').prop('display'))
+            $('div').hide(2000, function () {
+
+            })
+        }
+    });
+    //slide
+    $('button').eq(1).click(function () {
+        $('div').slideToggle(300)
+    });
+    //fade
+     $('button').eq(2).click(function () {
+        $('div').fadeToggle(300)
+    })
+</script>

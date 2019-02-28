@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>js操作三要素</title>
+	<style type="text/css">
+		div{
+			height:300px;
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="d1"></div>
+</body>
+</html>
+<script type="text/javascript">
+	//1.获取元素
+	oDiv = document.getElementById('d1');
+	//2.添加事件
+	oDiv.onclick = function(){
+		//3.操作div背景
+		oDiv.style.background = 'yellow'
+	}
+</script>

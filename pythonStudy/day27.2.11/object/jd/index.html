@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京东</title>
+	<link rel="icon" href="images/favicon.ico">
+	<style>
+		/*公共部分*/
+		*{margin: 0px;padding: 0px;list-style: none;}
+		a{text-decoration: none;}
+		 .clear:after{
+				display:block;
+				content:'';
+				zoom:1;
+				clear:both;
+		}
+
+		/*导航栏*/
+		header .top{height: 30px;background: #e3e4e5;font-size: 12px;color:#999;}
+		header .top .left{float:left;margin-left:245px;line-height: 30px;}
+		header .top .right{float:right;list-style: none;}
+		header .top .right li {float :left;margin-top: 7px;}
+		header .top .right .space{width:1px;height: 10px;background: #cccccc;margin-left: 10px;margin-right: 10px;margin-top:11px;}
+		header .top .right li:first-child{margin-right: 10px;}
+		header .top .right .phone_jd{margin-right: 44px}
+		header .top .right li a:link{color:#999;}
+		header .top .right li a:hover{color:#f10215;}
+		header .top .right .register{color:#f10215;}
+		header .top .right .register a:link{color: #f10215}
+
+		/*logo*/
+		.logo{width: 190px;height: 170px;position: absolute;top: 0;left:40px;background: url('images/logo.v2.png') no-repeat white;z-index:100;}
+		.logo a{display: block;width: 190px;height: 170px;text-indent: -999em;overflow: hidden;}
+
+		/*搜索栏*/
+		header .middle{height: 100px;background: #f0f3ef;position: relative}
+		header .middle form{width: 550px;-height:35px;background: blue;position:absolute;
+			top:25px;
+			left:360px;
+		}
+		header .middle form input[type='text']{width: 496px;height: 31px;display: block;float: left;font-size: 14px}
+		header .middle form input[type='button']{width: 50px;height:35px;background:url('images/search.png') no-repeat center center #f10215;display: block;float: left;border: none;}
+		header .middle span{width: 20px;height: 20px;background: url('images/sprite-photo-search.png') no-repeat;display: block;overflow: hidden;
+			position:absolute;
+			top:35px;
+			left:826px
+		}
+		header .middle .cart{width: 180px;height: 35px;background: #ffffff;
+			position:absolute;top:25px;left:945px;
+		}
+		header .middle .cart .cart_1 {width:40px;height:35px;background: url('images/cart_1.png') no-repeat;top: 1px;left: 40px}
+		header .middle .cart div {font-size: 12px;color:#f10215;top:8px;left: 76px;position: absolute;}
+		header .middle .ewm{width: 70px;height: 72px;background:url('images/ercode.png');position:absolute;top:-3px;right: 35px;}
+		header .middle .hots{width: 800px;height: 20px;background:#f0f3ef;position:absolute;top:70px;left:360px;}
+		header .middle .hots .hots_list{
+			font-size: 12px;
+			float: left;
+			list-style: none;
+		}
+		header .middle .hots .hots_list li{
+			float:left;
+		}
+		header .middle .hots .hots_list .space1{
+			width:5px;height: 10px;
+			margin-left: 2px;
+			margin-right: 2px
+		}
+		header .middle .hots .hots_list #host1 a:link{color:#f10215;}
+		header .middle .hots .hots_list a:link{color:#999;}
+		header .middle .hots .hots_list a:hover{color:#f10215;}
+
+		/*菜单栏*/
+		header .bottom{height: 40px;background: #f0f3ef}
+		header .bottom .bottom_list{
+			margin-left: 256px;
+		}
+		header .bottom .bottom_list li{
+			font-size: 14px;
+			float:left;
+			list-style: none;
+			margin-left: 12px;
+			margin-right: 12px;
+			margin-top:4px
+		}
+		header .bottom .bottom_list a:link{color:#333333;}
+		header .bottom .bottom_list a:hover{color:#f10215;}
+		header .bottom .bottom_list .space{width:1px;height: 12px;background: #cccccc;margin-left: 8px;margin-right: 8px;margin-top:8px;}
+		header .bottom .flowers{
+			width: 200px;
+			position: absolute;
+			right: 80px;
+			top: 110px
+		}
+
+		/*中间内容bodys*/
+		.bodys{
+			background: #f0f3ef;height: 500px;
+			position: relative;
+		}
+
+		/*左侧栏*/
+		.bodys .goods_list1{
+			width: 190px;height: 483px;margin-left: 40px;
+			background: white;
+			position: absolute;
+		}
+		.bodys .goods_list1 a:link{color: #999}
+		.bodys .goods_list1 a:hover{color: #f10215}
+		.bodys .goods_list1 li{
+			float: left;}
+		.bodys .goods_list1 .goods_list1_1:{
+			height: 30px;
+			background: white;
+			margin-top: 20px;
+			font-size: 16px;
+
+		}
+		.bodys .goods_list1 .goods_list1_2:{
+			height: 30px;
+			background: white;
+		}
+		.bodys .goods_list1 .goods_list1_3{
+			height: 30px;
+			background: white;
+		}
+		.bodys .goods_list1 .goods_list1_4{
+			height: 30px;
+			background: white;
+		}
+		.bodys .goods_list1 .goods_list1_5{
+			height: 30px;
+			background: black;
+		}
+		.bodys .goods_list1 .goods_list1_6{
+			height: 30px;
+			background: white;
+		}
+		.bodys .goods_list1 .goods_list1_7{
+			height: 30px;
+			background: black;
+		}
+		.bodys .goods_list1 .goods_list1_8{
+			height: 30px;
+			background: white;
+		}
+		.bodys .goods_list1 .goods_list1_9{
+			height: 30px;
+			background: black;
+		}
+		.bodys .goods_list1 .goods_list1_10{
+			height: 30px;
+			background: white;
+		}
+		.bodys .goods_list1 .goods_list1_11{
+			height: 30px;
+			background: black;
+			margin-bottom: 2px;
+		}
+		.bodys .goods_list1 .goods_list1_12{
+			height: 30px;
+			background: white;
+		}
+		.bodys .goods_list1 .goods_list1_13{
+			height: 30px;
+			background: black;
+			margin-bottom: 2px;
+		}
+		.bodys .goods_list1 .goods_list1_14{
+			height: 30px;
+			background: white;
+		}
+		.bodys .goods_list1 .goods_list1_15{
+			height: 30px;
+			background: black;
+		}
+		.bodys .goods_list1 .goods_list1_16{
+			height: 30px;
+			background: white;
+			margin-bottom: 2px;
+		}
+
+		.bodys .goods_photo1{
+			width: 590px;
+			height: 472px;
+			background: blue;
+			position: absolute;
+			top: 12px;
+			left: 237px;
+		}
+		.bodys .goods_photo2{
+			width: 191px;
+			height: 151px;
+			background: red;
+			position: absolute;
+			top: 12px;
+			left: 838px;
+		}
+		.bodys .goods_photo3{
+			width: 191px;
+			height: 151px;
+			background: red;
+			position: absolute;
+			top: 172px;
+			left: 838px;
+		}
+		.bodys .goods_photo4{
+			width: 191px;
+			height: 151px;
+			background: red;
+			position: absolute;
+			top: 332px;
+			left: 838px;
+		}
+		.bodys .goods_photo1{
+			background: url(images/ads_1.png) no-repeat;
+		}
+		.bodys .goods_photo1 a{
+			display: block;width: 590px;height: 472px;
+			text-indent: -1000em;overflow: hidden;
+		}
+		.bodys .goods_photo2{
+			background: url(images/ads_2.png) no-repeat;
+			text-indent: -999em;overflow: hidden;
+		}
+		.bodys .goods_photo2 a{
+			display: block;width: 191px;height: 151px;
+			text-indent: -999em;overflow: hidden;
+		}
+		.bodys .goods_photo3{
+			background: url(images/ads_3.png) no-repeat;
+			text-indent: -999em;overflow: hidden;
+		}
+		.bodys .goods_photo3 a{
+			display: block;width: 191px;height: 151px;
+			text-indent: -999em;overflow: hidden;
+		}
+		.bodys .goods_photo4{
+			background: url(images/ads_4.png) no-repeat;
+			text-indent: -999em;overflow: hidden;
+		}
+		.bodys .goods_photo4 a{
+			display: block;width: 191px;height: 151px;
+			text-indent: -999em;overflow: hidden;
+		}
+
+		.bodys .goods_list2{
+			width: 190px;height: 469px;margin-left: 1037px;margin-top: 12px;
+			background: white;
+			position: absolute;
+		}
+		/*内容框2*/
+		.bodys1{
+			height: 900px;background: #f0f3ef;
+		}
+
+		.bodys2{
+			margin-left: 38px;
+			width: 1190px;height: 276px;
+			background: black;
+			position: relative;
+		}
+		.bodys2 .bodys2_1{
+			width: 190px;height: 276px;
+			background: #e83632;
+			color: white;
+			font-size: 36px;
+		}
+		.bodys2 .bodys2_1 .cow1{
+			margin-left: 20px;
+			margin-top: 50px;
+			position: absolute;
+		}
+		.bodys2 .bodys2_1 .cow2{
+			font-size: 18px;
+			margin-left: 30px;
+			margin-top: 100px;
+			position: absolute;
+		}
+		.bodys2 .bodys2_1 .cow3{
+			margin-left: 70px;
+			margin-top: 130px;
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			background: url('images/cow3.png') no-repeat;
+		}
+		.bodys2 .bodys2_1 .cow4{
+			font-size: 14px;
+			margin-top: 172px;
+			margin-left: 35px;
+			position: absolute;
+		}
+		.bodys2 .bodys2_1 .cow5{
+			width: 200px;
+			height: 200px;
+			margin-left: 20px;
+			margin-top: 200px;
+			position: absolute;
+			background: url('images/time.png') no-repeat;
+		}
+		.bodys2 .bodys2_2{
+			width: 190px;height: 276px;
+			margin-left: 190px;
+			background: white;
+			position: absolute;
+			top: 0px;
+		}
+		.bodys2 .bodys2_2 .bow1{
+			width: 190px;height: 150px;
+			margin-left: 30px;
+			margin-top: 40px;
+			background: url('images/good1.png') no-repeat;
+		}
+		.bodys2 .bodys2_2 .bow2{
+			display: block;
+			width: 170px;height: 30px;
+			margin-left: 10px;
+			font-size: 12px;
+			text-align: left;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow:ellipsis;
+		}
+		.bodys2 .bodys2_2 .bow3{
+			width:150px;height: 22px;
+			margin-left: 20px;
+			margin-top: 20px;
+			background-color: red;
+			position: absolute;
+		}
+		.bodys2 .bodys2_2 .bow3 .bow3_1{
+			width: 75px;height: 22px;
+			text-align: center;
+			font-size: 13px;
+			color: white;
+			position: absolute;
+		}
+		.bodys2 .bodys2_2 .bow3 .bow3_2{
+			border:1px solid red;
+			width: 73px;height: 20px;
+			background-color: white;
+			margin-left: 75px;
+			text-align: center;
+			font-size: 13px;
+			color: black;
+			float: right;
+			text-decoration: line-through;
+		}
+		.bodys2 .line1{
+			margin-left: 380px;
+			height: 276px;
+			width: 1px;
+			background:#cccccc;
+			position: absolute;
+			top: 0px;
+			z-index: 5;
+
+		}
+		.bodys2 .bodys2_3{
+			width: 380px;height: 276px;
+			margin-left: 380px;
+			background: white;
+			position: absolute;
+			top: 0px;
+		}
+		.bodys2 .bodys2_3 .aow1{
+			width: 190px;height: 150px;
+			margin-left: 30px;
+			margin-top: 40px;
+			background: url('images/good2.png') no-repeat;
+		}
+		.bodys2 .bodys2_3 .aow2{
+			display: block;
+			width: 170px;height: 30px;
+			margin-left: 10px;
+			font-size: 12px;
+			text-align: left;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow:ellipsis;
+		}
+		.bodys2 .bodys2_3 .aow3{
+			width:150px;height: 22px;
+			margin-left: 20px;
+			margin-top: 20px;
+			background-color: red;
+			position: absolute;
+		}
+		.bodys2 .bodys2_3 .aow3 .aow3_1{
+			width: 75px;height: 22px;
+			text-align: center;
+			font-size: 13px;
+			color: white;
+			position: absolute;
+		}
+		.bodys2 .bodys2_3 .aow3 .aow3_2{
+			border:1px solid red;
+			width: 73px;height: 20px;
+			background-color: white;
+			margin-left: 75px;
+			text-align: center;
+			font-size: 13px;
+			color: black;
+			float: right;
+			text-decoration: line-through;
+		}
+		.bodys3{
+			margin-left: 38px;
+			margin-top: 32px;
+			width: 1190px;height: 162px;
+			background: yellow;
+			position: relative;
+		}
+		.bodys4{
+			margin-left: 38px;
+			margin-top: 32px;
+			width: 1190px;height: 363px;
+			background: red;
+			position: relative;
+		}
+		.end{
+			height: 60px;
+			background: #f0f3ef;
+			text-align: center;
+			font-size: 20px;
+		}
+		.shop{
+			position: fixed;top: 200px;right: 20px;
+			background: url('images/shop.png');
+			width: 32px;
+			height: 288px;
+			margin-left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<!-- 导航栏 -->
+		<div class='top  clear'>
+			<div class='left'>
+				<img src="images/bj.jpg" alt="">
+				<span>北京</span>
+			</div>
+			<ul class="right">
+				<li>你好，请先<a href="#">登录</a></li>
+				<li class='register'><a href="#">免费注册</a></li>
+				<li class='space'></li>
+				<li><a href="#">我的订单</a></li>
+				<li class='space'></li>
+				<li><a href="#">我的京东<img src="images/arrow.png" alt=""></a></li>
+				<li class='space'></li>
+				<li><a href="#">京东会员</a></li>
+				<li class='space'></li>
+				<li><a href="#">企业采购<img src="images/arrow.png" alt=""></a></li>
+				<li class='space'></li>
+				<li><a href="#">客户服务<img src="images/arrow.png" alt=""></a></li><li class='space'></li>
+				<li><a href="#">网站导航<img src="images/arrow.png" alt=""></a></li><li class='space'></li>
+				<li class="phone_jd"><a href="#">手机京东</a></li>
+			</ul>
+			<div class='logo'>
+				<a href="http://www.jd.com">jd</a>
+			</div>
+		</div>
+		<!-- 搜索栏 -->
+		<div class='middle'>
+			<form action="#">
+				<input type="text" placeholder="流浪地球票房突破20亿"><input type="button">
+			</form>
+			<span class='camera'></span>
+			<div class='cart'>
+				<span class="cart_1"></span>
+				<div class="cart_2">我的购物车</div>
+			</div>
+			<div class='ewm'></div>
+			<div class='hots'>
+				<ul class="hots_list">
+					<li id="host1"><a href="#">爆款五折秒</a></font></li>
+					<li class='space1'></li>
+					<li><a href="#">元宵</a></li>
+					<li class='space1'></li>
+					<li><a href="#">汽车用品</a></li>
+					<li class='space1'></li>
+					<li><a href="#">每99减50</a></li>
+					<li class='space1'></li>
+					<li><a href="#">浪漫旅拍</a></li>
+					<li class='space1'></li>
+					<li><a href="#">情人节</a></li>
+					<li class='space1'></li>
+					<li><a href="#">品质生活</a></li>
+					<li class='space1'></li>
+					<li><a href="#">甲醛检测</a></li>
+					<li class='space1'></li>
+					<li><a href="#">数码家电</a></li>
+					<li class='space1'></li>
+					<li><a href="#">游戏充值</a></li>
+					<li class='space1'></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- 菜单栏 -->
+		<div class='bottom'>
+			<ul class="bottom_list">
+				<li><a href="#">秒杀</a></li>
+				<li><a href="#">优惠券</a></li>
+				<li><a href="#">PLUS会员</a></li>
+				<li><a href="#">闪购</a></li>
+				<li class='space'></li>
+				<li><a href="#">拍卖</a></li>
+				<li><a href="#">京东时尚</a></li>
+				<li><a href="#">京东超市</a></li>
+				<li><a href="#">京东生鲜</a></li>
+				<li class='space'></li>
+				<li><a href="#">海囤全球</a></li>
+				<li><a href="#">京东金融</a></li>
+			</ul>
+			<div class="flowers">
+				<img src="images/flowers.png">
+			</div>
+		</div>
+	</header>
+	<!-- 中间内容 -->
+	<!-- 内容框1 -->
+	<div class="bodys">
+		<div class="goods_list1">
+			<div class="goods_list1_1"><a href="#">家用电器</a></div>
+			<div class="goods_list1_2"><a href="#">
+				<ul>
+					<li>手机</li>
+					<li>运营商</li>
+					<li>数码</li>
+				</ul>
+			</a></div>
+			<div class="goods_list1_3"><a href="">
+				<ul>
+					<li>电脑</li>
+					<li>办公</li>
+				</ul>
+			</a></div>
+			<div class="goods_list1_4"></div>
+			<div class="goods_list1_5"></div>
+			<div class="goods_list1_6"></div>
+			<div class="goods_list1_7"></div>
+			<div class="goods_list1_8"></div>
+			<div class="goods_list1_9"></div>
+			<div class="goods_list1_10"></div>
+			<div class="goods_list1_11"></div>
+			<div class="goods_list1_12"></div>
+			<div class="goods_list1_13"></div>
+			<div class="goods_list1_14"></div>
+			<div class="goods_list1_15"></div>
+			<div class="goods_list1_16"></div>
+		</div>
+		<div class="goods_photo1"><a href="http://www.jd.com">jd</a></div>
+		<div class="goods_photo2"><a href="http://www.jd.com">jd</a></div>
+		<div class="goods_photo3"><a href="http://www.jd.com">jd</a></div>
+		<div class="goods_photo4"><a href="http://www.jd.com">jd</a></div>
+		<div class="goods_list2"></div>
+	</div>
+	<!-- 内容框2 -->
+	<div class="bodys1">
+		<div class="bodys2">
+			<div class="bodys2_1">
+				<span class="cow1">京东秒杀</span>
+				<span class="cow2">FLASH DEALS</span>
+				<div class="cow3"></div>
+				<span class="cow4">本场距离结束还剩</span>
+				<div class="cow5"></div>
+			</div>
+			<div class="bodys2_2">
+				<div class="bow1"></div>
+				<span class="bow2">EA7 EMPOIRO ARMANI阿玛丽运动装</span>
+				<div class="bow3">
+					<div class="bow3_1">¥618.00</div>
+					<div class="bow3_2">¥1400.00</div>
+				</div>
+			</div>
+			<ul>
+				<li class="line1"></li>
+			</ul>
+			<div class="bodys2_3">
+				<div class="aow1"></div>
+				<span class="aow2">ZEESEA 滋色哑光雾面唇釉膏口红</span>
+				<div class="aow3">
+					<div class="aow3_1">¥69.00</div>
+					<div class="aow3_2">¥169.00</div>
+				</div>
+			</div>
+		</div>
+	<!-- 内容框3 -->
+		<div class="bodys3"></div>
+	<!-- 内容框4 -->
+		<div class="bodys4"></div>
+	</div>
+	<!-- 结尾部分 -->
+	<div class="end">———— 时尚达人 ————</div>
+	<!-- 固定边框 -->
+	<div class="shop"></div>
+</body>
+</html>

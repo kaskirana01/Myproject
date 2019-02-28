@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            font-size: 20px;
+            color: #f0f3ef;
+        }
+        #e1,#e2,#e3,#e4{
+            width: 50px;
+            height: 20px;
+            margin-top: 3px;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <!--切换按钮-->
+    <button id='d1' value="切换颜色">修改背景颜色</button>
+    <button id='d2' value="修改字体颜色">修改字体颜色</button>
+    <button id='d3' value="显示消失">显示消失</button>
+    <div id="d4">你的承诺曾是一种不自觉地甜蜜</div>
+    <!--运算按钮-->
+    <input id="e1" type="text" placeholder="a">
+    <input id="e2" type="text" placeholder="运算符">
+    <input id="e3" type="text" placeholder="b">
+    <span>=</span>
+    <button id="e4" value="结果">计算</button>
+</body>
+</html>
+<script>
+    // 三个按钮！
+    // oButton1 = document.getElementById("d1");
+    // oButton2 = document.getElementById("d3");
+    // oButton3 = document.getElementById("d2");
+    // oDiv = document.getElementById("d4");
+    // oButton1.onclick = function () {
+    //     oDiv.style.backgroundColor = 'blue'
+    // };
+    // oButton2.onclick = function () {
+    //     oDiv.style.display = 'none'
+    // };
+    // oButton3.onclick = function () {
+    //     oDiv.style.color = 'black';
+    // };
+    aButton = document.getElementsByTagName('button');
+    aDiv = document.getElementsByTagName('div')[0];
+   aButton[0].onclick = function(){
+        aDiv.style.background = "rgb(" + parseInt(Math.random()*255)+","
+            +parseInt(Math.random()*255)+","
+            +parseInt(Math.random()*255)+")"
+    };
+     aButton[2].onclick = function(){
+         if (aDiv.style.display == 'none'){
+             aDiv.style.display = 'block'
+         } else{
+             aDiv.style.display = 'none'
+         }
+     };
+     aButton[1].onclick = function(){
+        aDiv.style.color = "rgb(" + parseInt(Math.random()*255)+","
+            +parseInt(Math.random()*255)+","
+            +parseInt(Math.random()*255)+")"
+    };
+    //四则计算器
+    oVal1 = document.getElementById('e1');
+    oVal2 = document.getElementById('e2');
+    oVal3 = document.getElementById('e3');
+    oVal4 = document.getElementById('e4');
+    oVal4.onclick = function () {
+        // if (oVal2.value == "+"){
+        //     alert (parseInt(oVal1.value) + parseInt(oVal3.value))
+        // }
+        // else if (oVal2.value == "*") {
+        //     alert (parseInt(oVal1.value) * parseInt(oVal3.value))
+        // }
+        // else if (oVal2.value == "/") {
+        //     alert (parseInt(oVal1.value) / parseInt(oVal3.value))
+        // }
+        // else if (oVal2.value == "-") {
+        //     alert (parseInt(oVal1.value) - parseInt(oVal3.value))
+        // }
+        switch (oVal2.value) {
+            case '+':
+                alert (parseInt(oVal1.value) + parseInt(oVal3.value));
+                break;
+            case '-':
+                alert (parseInt(oVal1.value) - parseInt(oVal3.value));
+                break;
+            case '*':
+                alert (parseInt(oVal1.value) * parseInt(oVal3.value));
+                break;
+            case '/':
+                alert (parseInt(oVal1.value) / parseInt(oVal3.value));
+                break;
+        }
+    }
+</script>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        //js代码写在标签之前，需要写ready() 页面载入！
+        $(function () {
+            //选中第一个
+            //$('li:first').css('font-size','60px')
+            // 选中流浪地球，飞驰人生
+            //$('li:even').css('color','red')
+            //内容选择器
+           // $("li:contains('人')").css('font-size','60px')
+            //选中type属性
+           // $('[type]').css('background','red')
+            //如果ul的第一个孩子是li，则选中
+            $('ul li:first-child').css('color','tomato')
+
+        })
+    </script>
+    <ul>
+        <li>流浪地球</li>
+        <li>疯狂的外星人</li>
+        <li>飞驰人生</li>
+        <li>神探蒲松龄</li>
+    </ul>
+    <input type="text" name="username">
+    <input type="submit" >
+</body>
+</html>

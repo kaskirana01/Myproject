@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>全选</title>
+</head>
+<body>
+	<input type="checkbox" id='all' name="">全选
+	<input type="checkbox" id='opposite'>反选
+	<div id='cb'>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+		<input type="checkbox" name=""><br>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+oAll = document.getElementById('all')
+oOpposite = document.getElementById('opposite')
+oCb = document.getElementById('cb')
+oAll.onclick = function(){
+	// if (oAll.checked) {
+	// 	// 全选
+	// 	aInput = oCb.getElementsByTagName('input')    //getElements!!根据标签名选择，返回一个列表
+	// 	for (var i = 0; i < aInput.length; i++) {
+	// 	 aInput[i].checked = true
+	// 	}
+	// } else {
+	// 	// 伪反选
+	// 	for (var i = 0; i < aInput.length; i++) {
+	// 	aInput[i].checked = false
+	// 	}
+	// }
+	aInput = oCb.getElementsByTagName('input')
+	for (var i = 0; i < aInput.length; i++) {
+		aInput[i].checked = oAll.checked
+		}
+}
+//反选
+oOpposite.onclick = function(){
+	aInput = oCb.getElementsByTagName('input')
+	for (var i = 0; i < aInput.length; i++) {
+		aInput[i].checked =!aInput[i].checked     // 取反
+	}
+}
+</script>

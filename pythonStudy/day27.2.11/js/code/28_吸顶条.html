@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>吸顶条</title>
+	<style type="text/css">
+		*{
+			margin: 0
+		}
+		p{
+			height: 40px;
+			background: red;
+			color: white;
+			margin-top: 4px;
+			line-height: 40px;
+		}
+		div{
+			height: 40px;
+			background: yellow;
+			line-height: 40px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function(){
+			// 滚动距离与div的顶部距离相等，说明已经到顶
+			//div的y坐标
+			oDiv = document.getElementsByTagName('div')[0]
+			y = oDiv.offsetTop
+			console.log(y)
+			window.onscroll = function(){
+				// 窗口滚动的距离
+				distince = document.body.scrollTop || document.documentElement.scrollTop
+				//窗口滚动的距离大于等于y
+				console.log(distince)
+				if (distince >= y){
+					oDiv.style.position = 'fixed'
+					oDiv.style.top = 0;
+					oDiv.style.left = 0;
+					oDiv.style.width = '100%'
+				}else {
+					oDiv.style.position = ''
+				}
+			}
+	}
+	</script>
+</head>
+<body>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶13天</p>
+	<p>锄奸惩恶12天</p>
+	<p>锄奸惩恶11天</p>
+	<p>锄奸惩恶10天</p>
+	<div>强奸作恶打麻将</div>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+	<p>锄奸惩恶14天</p>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>数据类型</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 1 数值型
+		a = 10; //整型
+		b = 10.2; //float(浮点)
+		console.log(typeof(b),typeof(a));
+		// 2 布尔值
+		var bFlag = true;
+		var bisMan = false;
+		console.log(typeof bFlag);
+		// 3 字符串
+		var sName = 'tom';
+		var sSex = "男";
+		console.log(typeof sName);
+		// 4 数组
+		var aStudent1 = [];
+		var aStudent2 = [1,2,3,4];
+		console.log(typeof aStudent2);
+		// 5 函数
+		var pf = function(){
+			alert('ok')
+		};
+		console.log(typeof pf);
+		// 6 对象
+		var oDog = {};
+		oDog.name = '丁丁';
+		oDog.walk = function(){
+			alert('walk')
+		};
+		console.log(typeof oDog);
+		// 7 undefined。未定义都会报undefined；函数没有返回值，默认返回undefin
+		// 8 null
+		var d = null;
+		console.log(d);
+		// 9 NaN 运算出错
+		var res = 5 / 'ok';
+		console.log(res);
+		// 判断是不是NaN
+		console.log(NaN == NaN);   // false 自身不能判断
+		console.log(isNaN(NaN))   // true 用函数isNaN判断
+	</script>
+</body>
+</html>

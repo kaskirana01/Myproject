@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="http://www.baidu.com" -onclick="return false">baidu</a>
+</body>
+</html>
+<script>
+    oA = document.getElementsByTagName("a")[0];
+    console.log(oA)
+    oA.onclick = function(e){
+        var ev = e || event;
+        console.log(ev);
+        //阻止缺省跳转
+        ev.preventDefault();
+        // return false;
+        res = window.confirm("你确定跳转到度娘嘛？");
+        if (res) {
+            //在当前窗口跳转
+            window.location.href = "http://www.baidu.com";//this.href
+        }  else{ //在新窗口跳转
+            window.open('http://www.sohu.com',"_blank")}
+    }
+</script>

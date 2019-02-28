@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>变量声明</title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+	//可以先引用显式定义的变量，再定义显式变量，隐式不行。与python的区别
+	// console.log(b);
+	 // 隐式声明
+	 a = 10;
+	 b = 2;
+		x = function() {
+		a = 2;			// 全局变量
+		var a = 1;      // 局部变量
+		b +=1
+	}
+	 // 2 显式声明
+	x();
+	 // var b = 20;
+	 // 变量输出三种形式
+	 alert(a,b);
+	 console.log(a,b);  //重点掌握  10 , 3
+	 document.write('a=',a,'b=',b)
+	 
+</script>

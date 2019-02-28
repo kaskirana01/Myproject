@@ -2,9 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47ee2baf-8daf-4741-b3e1-ffcca75ce240" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/dictionaries/SorrisoYi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day10.11.29/codes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day10.11.29/codes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day27.2.11/js/code/19_获取元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day27.2.11/js/code/20_修改标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day27.2.11/js/code/作业.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day6.11.25/codes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day6.11.25/codes/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/pythonStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/pythonStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day10.11.29/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day10.11.29/codes/.idea/codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day10.11.29/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day10.11.29/codes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day10.11.29/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day10.11.29/codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day13.1.4/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day13.1.4/codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day20.1.15/2/2.linux常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../day20.1.15/2/2.linux常用命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day21.1.16/3/linux文本编辑器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../day21.1.16/3/linux文本编辑器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_增删改.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_增删改.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_封装数据库操作类.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_封装数据库操作类.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07a34021-e0b2-4d98-a37d-b07e2f4f4438.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd94b00d-c47e-4511-88ae-851c3c03a4ff.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql参考手册.chm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day27.2.11/13/code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/code/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day27.2.11/13/code/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/code/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../day27.2.11/13/code/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/code/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day27.2.11/13/code/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/code/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day27.2.11/13/code/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4.11.21/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4.11.21/codes/.idea/codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4.11.21/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4.11.21/codes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4.11.21/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4.11.21/codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day6.11.25/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day6.11.25/codes/.idea/codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day6.11.25/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day6.11.25/codes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day6.11.25/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day6.11.25/codes/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,18 +69,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@yi" type="feb32156:DbDataSourceImpl" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@yi" type="feb32156:DbDataSourceImpl" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@yi" type="feb32156:DbDataSourceImpl" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -55,81 +89,20 @@
     <favorites_list name="数据库" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48119658">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/04_防sql注入.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="522">
-                  <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#0#14#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/05_封装数据库操作类.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1152">
-                  <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#26#40#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/01_数据查询.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/03_增删改.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="738">
-                  <caret line="41" selection-start-line="41" selection-end-line="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/02_带参数的查询.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="648">
-                  <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/练手.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/练手.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05_封装数据库操作类.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <element signature="e#26#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +159,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,6 +316,8 @@
       <workItem from="1548213114224" duration="41722000" />
       <workItem from="1548330394419" duration="54000" />
       <workItem from="1548376605937" duration="696000" />
+      <workItem from="1550747193544" duration="673000" />
+      <workItem from="1550815833517" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="sql数据库">
       <created>1548241514199</created>
@@ -369,12 +344,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42472000" />
+    <option name="totallyTimeSpent" value="43413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.021520803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.17073171" />
       <window_info id="Structure" order="1" sideWeight="0.5020576" side_tool="true" weight="0.17450812" />
       <window_info id="Favorites" order="2" sideWeight="0.5020576" side_tool="true" weight="0.17450812" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,7 +364,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32872927" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36325967" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36325967" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50040483" side_tool="true" weight="0.2845304" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -437,25 +413,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_mysql数据库.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://07a34021-e0b2-4d98-a37d-b07e2f4f4438/schema/practice/table/user" />
     <entry file="file://$PROJECT_DIR$/存储引擎.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_数据库操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/数据库.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -480,9 +440,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dataSources/eb01089b-81f3-436e-a1d6-82d957a74c6e.xml" />
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources/07a34021-e0b2-4d98-a37d-b07e2f4f4438.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/07a34021-e0b2-4d98-a37d-b07e2f4f4438.xml" />
     <entry file="file://$PROJECT_DIR$/../../案例/打飞碟/game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -511,85 +469,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_防sql注入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_数据查询.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_增删改.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_带参数的查询.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05_封装数据库操作类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-          <folding>
-            <element signature="e#26#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://07a34021-e0b2-4d98-a37d-b07e2f4f4438/schema/practice/table/grade">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://07a34021-e0b2-4d98-a37d-b07e2f4f4438/schema/practice/table/course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://07a34021-e0b2-4d98-a37d-b07e2f4f4438/schema/practice/table/student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://07a34021-e0b2-4d98-a37d-b07e2f4f4438/schema/practice/table/grade" />
+    <entry file="das://07a34021-e0b2-4d98-a37d-b07e2f4f4438/schema/practice/table/course" />
+    <entry file="das://07a34021-e0b2-4d98-a37d-b07e2f4f4438/schema/practice/table/student" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ecf03f3a-7e1c-4473-b2ff-a07603306da1/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dd94b00d-c47e-4511-88ae-851c3c03a4ff/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://dd94b00d-c47e-4511-88ae-851c3c03a4ff/schema/student/table/student">
+    <entry file="das://dd94b00d-c47e-4511-88ae-851c3c03a4ff/schema/student/table/student" />
+    <entry file="das://53f24c0c-ecbd-45ef-9e66-be37f65902ae/schema/test/table/student">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53f24c0c-ecbd-45ef-9e66-be37f65902ae/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_数据库操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="386">
+            <caret line="193" column="19" lean-forward="true" selection-start-line="193" selection-start-column="19" selection-end-line="193" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_防sql注入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://53f24c0c-ecbd-45ef-9e66-be37f65902ae/schema/test/view/a">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://53f24c0c-ecbd-45ef-9e66-be37f65902ae/schema/test/table/areainfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_增删改.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_数据查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_带参数的查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_mysql数据库.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/练手.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="342">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_封装数据库操作类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#26#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

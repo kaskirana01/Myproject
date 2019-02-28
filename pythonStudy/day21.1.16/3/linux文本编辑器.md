@@ -162,7 +162,7 @@ vim的三种工作模式
 
 ## 三. 进程管理
 
-1. ps
+1. ps  (mac中 ps aux.没有-)
 
     Linux中的ps命令是Process Status的缩写。ps命令用于报告当前系统的进程状态。可以搭配kill指令随时中断、删除不必要的程序。
 

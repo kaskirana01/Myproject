@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+    <script src="jquery1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <span id="s1">标签</span>
+    <div></div>
+    <input type="text" name="username">
+    <input type="submit">
+</body>
+</html>
+<script>
+    // 事件切换,鼠标移进移出触发事件
+    $('div').css({'background':'red','width':'400px','height':'400px'})
+    $('div').hover(
+        function () {
+        $('div').css({'background':'blue','width':'400px'})
+    },
+        function () {
+        $('div').css({'background':'green','width':'300px'})
+    }
+    )
+    $('[type=submit]').css({'width':'100px','height':'200px'})
+</script>

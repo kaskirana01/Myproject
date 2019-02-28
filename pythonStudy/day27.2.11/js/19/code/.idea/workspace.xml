@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="779ae72a-f908-46f8-80f5-eaf15bc238aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dictionaries/SorrisoYi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../day10.11.29/codes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../day10.11.29/codes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/19_获取元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/20_修改标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/作业.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../day6.11.25/codes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../day6.11.25/codes/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/pythonStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/pythonStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day10.11.29/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day10.11.29/codes/.idea/codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day10.11.29/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day10.11.29/codes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day10.11.29/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day10.11.29/codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day13.1.4/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day13.1.4/codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day20.1.15/2/2.linux常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day20.1.15/2/2.linux常用命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day21.1.16/3/linux文本编辑器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day21.1.16/3/linux文本编辑器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day24.1.21/数据库/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day24.1.21/数据库/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day24.1.21/数据库/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day24.1.21/数据库/.idea/dataSources/07a34021-e0b2-4d98-a37d-b07e2f4f4438.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day24.1.21/数据库/.idea/dataSources/dd94b00d-c47e-4511-88ae-851c3c03a4ff.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day24.1.21/数据库/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day24.1.21/数据库/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day24.1.21/数据库/mysql参考手册.chm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/code/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/code/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/code/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/code/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/code/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/code/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../13/code/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../13/code/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day4.11.21/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day4.11.21/codes/.idea/codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day4.11.21/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day4.11.21/codes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day4.11.21/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day4.11.21/codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day6.11.25/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day6.11.25/codes/.idea/codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day6.11.25/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day6.11.25/codes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day6.11.25/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day6.11.25/codes/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_importJS.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_jQuery选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/练习.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bootstrap/1_importJS.html" />
+        <option value="$PROJECT_DIR$/bootstrap/2_jQuery选择器.html" />
+        <option value="$PROJECT_DIR$/2_jQuery选择器.html" />
+        <option value="$PROJECT_DIR$/3_选择器.html" />
+        <option value="$PROJECT_DIR$/练习.html" />
+        <option value="$PROJECT_DIR$/8_属性.html" />
+        <option value="$PROJECT_DIR$/7_动画效果.html" />
+        <option value="$PROJECT_DIR$/1_importJS.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="828" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery1.11.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery1.11.1" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.7_动画效果.html">
+    <configuration name="1_importJS.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code/1_importJS.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="2_jQuery选择器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code/2_jQuery选择器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="3_选择器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code/3_选择器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="7_动画效果.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code/7_动画效果.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.7_动画效果.html" />
+        <item itemvalue="JavaScript Debug.2_jQuery选择器.html" />
+        <item itemvalue="JavaScript Debug.1_importJS.html" />
+        <item itemvalue="JavaScript Debug.3_选择器.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="779ae72a-f908-46f8-80f5-eaf15bc238aa" name="Default Changelist" comment="" />
+      <created>1550712691588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550712691588</updated>
+      <workItem from="1550712692882" duration="10913000" />
+      <workItem from="1550828345926" duration="374000" />
+      <workItem from="1550828849544" duration="483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11770000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="828" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1423462" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/8_属性.html" />
+    <entry file="file://$USER_HOME$/Projects/blog/html/13/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3910" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery1.11.1/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23246">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_importJS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_jQuery选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_动画效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
