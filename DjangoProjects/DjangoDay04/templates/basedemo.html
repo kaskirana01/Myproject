@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- WEB学习 注释-->
+{#Django 模板注释#}
+{% include 'headview.html' %}
+{# {{ var }} 变量 #}
+<p>
+    你的名字：{{ name }}
+</p>
+<p>
+    你的年龄：{{ age }}
+</p>
+<p>
+    你的身高：{{ height }}   {# 未定义的变量为空 #}
+</p>
+<p>
+    你的成绩：{{ score }}
+</p>
+{#<p>#}
+{#    语文：{{ score }}    {# 此处无法处理列表等数据 #}
+{#</p>#}
+
+{# {% tag %} 标签 #}
+{% if username %}
+    <p> 用户名:{{ username }}</p>
+{% else %}
+    <p>用户名：未登录</p>
+{% endif %}
+
+{#if else#}
+{% if username == 'root' %}
+    <p style="color:red;">
+        超级管理员
+    </p>
+    {% elif username %}
+    <p>用户名：{{ username }}</p>
+    {% else %}
+    <p>用户未登录</p>
+{% endif %}
+
+{#for循环#}
+{% for item in score %}
+    <p>成绩：{{ item }}</p>
+
+{% endfor %}
+<ul>
+    {% for dir in scoredir %}
+        <li>
+        {{ forloop.counter0 }}-{{ dir.values }}
+        </li>
+    {% endfor %}
+</ul>
+
+<ul>
+    {% for name in names %}
+        {# 奇数显示红色，偶数选择蓝色 #}   {#  | 管道符 #}
+        {% if forloop.counter|divisibleby:2 %}  {# 对2取余 #}
+            <li style="color: red;">{{ name }}</li>
+        {% else %}
+            <li style="color: blue;">{{ name }}</li>
+        {% endif %}
+
+        {% empty %}  {# 为空时的处理 #}
+            <li>没有names属性值</li>
+    {% endfor %}
+</ul>
+
+<p>
+    {{ name|lower }}
+</p>
+<p>
+    {{ name|upper }}
+</p>
+<p>
+    {{ name|join:'-' }}
+</p>
+<p>
+    {{ haha|default:'默认值测试' }}
+</p>
+
+{# 倒入模块包 #}
+{% include 'create_goods.html' %}
+{% include 'create_goods.html' %}
+{% include 'create_goods.html' %}
+
+</body>
+</html>

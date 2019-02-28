@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        input{
+            height: 30px;
+            border-radius: 10%;
+        }
+        img{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+<form action="{% url 'jd:login' %}" method="post">
+{#  post请求会报csrf错误  setting中注释掉就可以 或者加入下面一句话 #}
+    {% csrf_token %}
+    <p>
+       用户名 <input type="text" placeholder="用户名">
+    </p>
+    <p>
+       密  码 <input type="text" placeholder="密码">
+    </p>
+    <p>验证码：<img src="{% url 'jd:verifycode' %}"></p>
+    <p>
+        <input type="submit" value="登录">
+
+    </p>
+</form>
+</body>
+</html>
+
