@@ -7,6 +7,8 @@
 <body>
 <!-- WEB学习 注释-->
 {#Django 模板注释#}
+
+{#导包#}
 {% include 'headview.html' %}
 {# {{ var }} 变量 #}
 <p>
@@ -45,13 +47,14 @@
 
 {#for循环#}
 {% for item in score %}
+
     <p>成绩：{{ item }}</p>
 
 {% endfor %}
 <ul>
     {% for dir in scoredir %}
         <li>
-        {{ forloop.counter0 }}-{{ dir.values }}
+        {{ forloop.counter0 }}-{{ dir.keys }} : {{ dir.values }}
         </li>
     {% endfor %}
 </ul>

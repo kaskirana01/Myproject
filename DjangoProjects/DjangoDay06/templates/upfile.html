@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头像上传</title>
+</head>
+
+<body>
+
+{#上传文件必须写enctype这个属性！#}
+<form action="{% url 'app:upfile' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="headimg">
+    <input type="submit" value="上传">
+</form>
+
+</body>
+</html>

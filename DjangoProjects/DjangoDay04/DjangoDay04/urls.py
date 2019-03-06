@@ -17,8 +17,8 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+	url(r'^admin/', admin.site.urls),
 
-    # 命名空间 namespace  解决命名同名的问题
-    url(r'^jdqq/',include('app.urls',namespace='jd'))    # 单个应用省略app
+	# 命名空间 namespace  解决命名同名的问题
+	url(r'^jdqq/', include('app.urls', namespace='jd'))  # 单个应用省略app
 ]

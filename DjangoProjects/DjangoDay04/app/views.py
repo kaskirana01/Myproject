@@ -24,7 +24,7 @@ def basedemo(request):
 		],
 		'names':['张三','李四','王五','赵六']
 	}
-	# 传数据到模版中
+	# 传数据到模版中(字典形式)
 	return render(request,'basedemo.html',context=context)
 
 
@@ -103,8 +103,8 @@ def verifycode(request):
 
 	# 画线
 	# 线条颜色
-	line_color_1 = random.randrange(0,256),random.randrange(0,256),random.randrange(0,256)
-	draw.line((5,10),fill=line_color_1,width=3,joint=None)
+	# line_color_1 = random.randrange(0,256),random.randrange(0,256),random.randrange(0,256)
+	# draw.line((5,10),fill=line_color_1,width=3,joint=None)
 	# 释放画笔
 	del draw
 

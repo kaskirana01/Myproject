@@ -2,46 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecdd8723-b8b2-4c37-956e-c46a415d5c82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/.idea/dictionaries/SorrisoYi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/day10.11.29/codes/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/day10.11.29/codes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/js/code/19_获取元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/js/code/20_修改标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/js/code/作业.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/day6.11.25/codes/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonStudy/day6.11.25/codes/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/.idea/pythonStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/.idea/pythonStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day10.11.29/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day10.11.29/codes/.idea/codes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day10.11.29/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day10.11.29/codes/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day10.11.29/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day10.11.29/codes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day13.1.4/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day13.1.4/codes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day20.1.15/2/2.linux常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day20.1.15/2/2.linux常用命令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day21.1.16/3/linux文本编辑器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day21.1.16/3/linux文本编辑器.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day22.1.17/4/开发环境.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day22.1.17/4/开发环境.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day24.1.21/数据库/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day24.1.21/数据库/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day24.1.21/数据库/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day24.1.21/数据库/.idea/dataSources/07a34021-e0b2-4d98-a37d-b07e2f4f4438.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day24.1.21/数据库/.idea/dataSources/dd94b00d-c47e-4511-88ae-851c3c03a4ff.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day24.1.21/数据库/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day24.1.21/数据库/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day24.1.21/数据库/mysql参考手册.chm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/.idea/code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day27.2.11/13/code/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day4.11.21/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day4.11.21/codes/.idea/codes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day4.11.21/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day4.11.21/codes/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day4.11.21/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day4.11.21/codes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day6.11.25/codes/.idea/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day6.11.25/codes/.idea/codes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day6.11.25/codes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day6.11.25/codes/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonStudy/day6.11.25/codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonStudy/day6.11.25/codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay03/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/DjangoDay04/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/DjangoDay04/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/basedemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/basedemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/baseview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/baseview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/headview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/headview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloDjango/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloDjango/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/dataSources/5c824f47-8ccd-41e0-a428-6444383eae45.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Practice/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Practice/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Practice/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Practice/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/templates/allStu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day27.2.11/15/3css.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../day27.2.11/15/3css.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,20 +88,46 @@
     </expand>
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.6239044">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/meituan/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="179" selection-start-line="179" selection-end-line="179" />
+                <state relative-caret-position="-1775">
+                  <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DjangoDay02/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DjangoDay02/settings.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="646">
+                  <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DjangoDay02/wsgi.py">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -105,8 +137,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/meituan/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="812">
-                  <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+                <state relative-caret-position="506">
+                  <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -114,7 +146,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/meituan/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
+                <state relative-caret-position="252">
                   <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
@@ -135,7 +167,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +223,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +231,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,17 +309,20 @@
       <updated>1551146790097</updated>
       <workItem from="1551146792750" duration="27746000" />
       <workItem from="1551272971240" duration="1902000" />
+      <workItem from="1551354581822" duration="915000" />
+      <workItem from="1551401082338" duration="250000" />
+      <workItem from="1551684232626" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29648000" />
+    <option name="totallyTimeSpent" value="30841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1037196" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10801145" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,6 +349,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
     <entry file="das://d2da5a85-9256-448c-8a07-73ea5ccbb01a/schema/main/table/meituan_student">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -329,20 +369,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://7a46b448-857a-492f-87cf-8483855548ae/schema/main/table/django_migrations" />
-    <entry file="das://7a46b448-857a-492f-87cf-8483855548ae/schema/main/table/meituan_student.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7a46b448-857a-492f-87cf-8483855548ae/schema/main/table/meituan_student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://7a46b448-857a-492f-87cf-8483855548ae/schema/main/table/meituan_student.sql" />
+    <entry file="das://7a46b448-857a-492f-87cf-8483855548ae/schema/main/table/meituan_student" />
     <entry file="das://df664941-c08c-48c1-b950-774203e7c655/schema/main/table/django_migrations" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/425642c6-a970-4159-bee0-28f11fade38d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -351,38 +379,12 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb3fe4ff-6303-491e-9a7c-07b4680713c6/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://cb3fe4ff-6303-491e-9a7c-07b4680713c6/schema/python1812/table/meituan_student.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb3fe4ff-6303-491e-9a7c-07b4680713c6/schema/python1812/table/meituan_student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://cb3fe4ff-6303-491e-9a7c-07b4680713c6/schema/python1812/table/meituan_student.sql" />
+    <entry file="das://cb3fe4ff-6303-491e-9a7c-07b4680713c6/schema/python1812/table/meituan_student" />
     <entry file="file://$USER_HOME$/.pyenv/versions/env366/lib/python3.6/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="324" column="8" selection-start-line="324" selection-start-column="8" selection-end-line="324" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoDay02/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="134" column="23" lean-forward="true" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoDay02/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -440,19 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoDay02/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meituan/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://cb3fe4ff-6303-491e-9a7c-07b4680713c6/schema/python1812/table/student">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -460,20 +449,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/meituan/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meituan/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        <state relative-caret-position="-1775">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meituan/models.py">
+    <entry file="file://$PROJECT_DIR$/DjangoDay02/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        <state relative-caret-position="646">
+          <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoDay02/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoDay02/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>

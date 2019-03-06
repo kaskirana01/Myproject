@@ -49,7 +49,7 @@ font简写(style || weight [size family]) 顺序不能错，但属性可以不�
 
 - text-align  水平对齐  left center right，默认是left
 
-- text-overflow（clip、ellipsis），这个属性需要配合overflow来使用，将overflow设置hidden
+- text-overflow（clip、ellipsis），这个属性需要配合overflow来使用，将overflow设置hidden  超出隐藏
 
   ```
    p{
@@ -211,4 +211,4 @@ position(relative,absolute,static,fixed)
 
   - top  right bottom   left
 
-    ​
+    

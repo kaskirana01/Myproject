@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+    	*{
+            text-decoration-line: none;
+        }
+    </style>
+</head>
+<body>
+<h1>首页</h1>
+{# 链接网页 后接参数用空格！#}
+<a href="{% url 'cramapp:goodslist' 6 %}">第六页</a>
+<br>
+<br>
+<br>
+<hr>
+<p>
+    {% if username %}
+        <p>
+        用户名：{{ username }}
+        </p>
+        <p>
+            <a href="{% url 'cramapp:logout' %}">注销</a>
+        </p>
+        {% else %}
+            <p>
+                请<a href="{% url 'cramapp:login' %}">登录</a>
+            </p>
+    {% endif %}
+</p>
+<p>
+    <a href="{% url 'cramapp:register' %}">注册</a>
+</p>
+</body>
+</html>
+<script>
+// <!-- asd -->
+</script>
