@@ -1,1 +1,0 @@
-$(function () {    document.documentElement.style.fontSize = innerWidth / 320 * 16 + 'px';    // 为了隐藏滚动条    $('#content').width(innerWidth+20)})
