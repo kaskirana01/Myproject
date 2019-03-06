@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5706b96-5680-44ca-be8a-165f4b33f720" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DjangoDay02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay02/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay03/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/DjangoDay04/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/DjangoDay04/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/basedemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/basedemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/baseview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/baseview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/headview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/headview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoDay04/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay04/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloDjango/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloDjango/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloDjango/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloDjango/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/dataSources/5c824f47-8ccd-41e0-a428-6444383eae45.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Practice/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Practice/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Practice/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Practice/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/Stu_info/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/templates/allStu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day27.2.11/13/untitled/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day27.2.11/15/3css.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../day27.2.11/15/3css.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Axf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Axf/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoDay08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoDay08/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -338,12 +293,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551748090296</updated>
       <workItem from="1551748093499" duration="32504000" />
-      <workItem from="1551835366809" duration="1903000" />
+      <workItem from="1551835366809" duration="1904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34407000" />
+    <option name="totallyTimeSpent" value="34408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,7 +311,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119456366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
